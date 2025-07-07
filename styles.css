@@ -127,23 +127,6 @@ footer {
     margin-bottom: 2rem;
 }
 
-.sliding-text {
-    white-space: nowrap;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    animation: slideRightToLeft 15s linear infinite;
-}
-
-@keyframes slideRightToleft {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translate(-100%);
-    }
-}
-
 .hero h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
